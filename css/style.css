@@ -1,0 +1,58 @@
+body, html {
+    margin: 0;
+    height: 100%;
+    background-color: skyblue;
+    font-family: Montserrat, sans-serif;
+}
+
+main{
+  min-height: 100%;
+   margin-bottom: -55px;
+
+   display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main:after {
+    content: "";
+    display: block;
+    height: 55px;
+}
+
+footer{
+  z-index: 50;
+  height: 55px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+}
+
+.icon, a{
+  z-index:50;
+  cursor:pointer;
+  margin-right: 10px;
+  height: 40px;
+  transition: all .3s ease-in-out;;
+}
+
+.icon:hover{
+  transform: scale(1.09);
+}
+
+p{
+ word-break: break-word;
+}
+
+footer > p:first-of-type{
+margin-right: 10px;
+font-weight: 200;
+color: white;
+}
+
+.boops-boops{
+  max-width: 500px;
+  width:100%;
+  height: auto;
+}
